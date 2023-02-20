@@ -1763,6 +1763,9 @@ button.swiper-pagination-bullet {
        column-gap: 146px;
   margin-top: 50px;
 }
+.partners__image {
+  max-width: 100%;
+}
 
 @media only screen and (max-width: 767px) {
   .partners {
@@ -1779,18 +1782,6 @@ button.swiper-pagination-bullet {
     -moz-column-gap: 40px;
          column-gap: 40px;
     margin-top: 16px;
-  }
-  .partners__google-marketing {
-    max-width: 140px;
-  }
-  .partners__google-cloud {
-    max-width: 90px;
-  }
-  .partners__hubspot {
-    max-width: 70px;
-  }
-  .partners__aws {
-    max-width: 50px;
   }
 }
 .bellcorp {
@@ -1878,6 +1869,7 @@ button.swiper-pagination-bullet {
   .bellcorp__content-text {
     max-width: 290px;
     margin-top: 30px;
+    margin-left: 0;
   }
   .bellcorp__title-sm {
     font-size: 16px;
@@ -2001,11 +1993,14 @@ button.swiper-pagination-bullet {
     padding-bottom: 16px;
   }
   .nuestros__text {
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .nuestros__comment {
+    margin-top: 10px;
   }
   .nuestros__link {
     font-size: 16px;
-    margin-top: 24px;
+    margin-top: 20px;
   }
   .nuestros__button-text {
     display: none;
